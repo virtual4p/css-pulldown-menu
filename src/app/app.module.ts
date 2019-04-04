@@ -3,13 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { CssMenuComponent } from './css-menu/css-menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CssMenuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
