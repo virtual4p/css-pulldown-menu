@@ -1,3 +1,28 @@
+.home-container {
+  text-align: left;
+  min-width: 600px;
+  height: 600px;;
+  min-height: 700px;
+}
+
+.menu-container
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  display: inline-block;
+	top: 10px;
+  left: 10px;
+}
+
+.menu-container ul
+{
+	list-style: none;
+	position: relative;
+	float: left;
+	margin: 0;
+  padding: 0;
+}
+
 .menu-container ul a
 {
   display :block;
@@ -17,7 +42,7 @@
 
 ul li a:hover {
 
-	color: #8A8E8A;
+	color: blue;
 }
 
 .menu-container ul ul
@@ -46,4 +71,3 @@ ul li a:hover {
 	min-width: 50px;
 	max-width: 160px;
 }
-
