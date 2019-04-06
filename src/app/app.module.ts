@@ -10,6 +10,8 @@ import { CloudComponent } from './cloud/cloud.component';
 import { ConsultationComponent } from './consultation/consultation.component';
 import { EmployeesComponent } from './employees/employees.component';
 import { ReferencesComponent } from './references/references.component';
+import { CompanyComponent } from './company/company.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ReferencesComponent } from './references/references.component';
     CloudComponent,
     ConsultationComponent,
     EmployeesComponent,
-    ReferencesComponent
+    ReferencesComponent,
+    CompanyComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
