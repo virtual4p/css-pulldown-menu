@@ -1,20 +1,20 @@
 <ul>
-  <li><a href="#home">Startseite</a></li>
+  <li><a routerLink="/welcome">Startseite</a></li>
   <li class="dropdown">
     <a href="#" class="dropbtn">Angebot</a>
     <div class="dropdown-content">
-      <a href="#">Porgrammierung</a>
-      <a href="#">Cloud Dienstleistungen</a>
-      <a href="#">Beratung</a>
+      <a routerLink="/developement" routerLinkActive="router-link-active" >Programmierung</a>
+      <a routerLink="/cloud">Cloud Dienstleistungen</a>
+      <a routerLink="/consultation">Beratung</a>
     </div>
   </li>
   <li class="dropdown">
     <a href="#" class="dropbtn">Unternehmen</a>
     <div class="dropdown-content">
-        <a href="#">Firma</a>
-      <a href="#">Mitarbeiter</a>
-      <a href="#">Referenzen</a>
+        <a routerLink="/company">Firma</a>
+      <a routerLink="/employees">Mitarbeiter</a>
+      <a routerLink="/references">Referenzen</a>
     </div>
   </li>
-  <li><a href="#news">Kontakt</a></li>
+  <li><a routerLink="/contact">Kontakt</a></li>
 </ul>
